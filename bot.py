@@ -26,7 +26,7 @@ import pogoda  # noqa: E402
 import ztm_api  # noqa: E402
 from users import DOZWOLONE_ID  # noqa: E402
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
