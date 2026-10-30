@@ -28,4 +28,4 @@ jobs:
       - name: Uruchom bota
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        run: python main.py
+        run: python bot.py
